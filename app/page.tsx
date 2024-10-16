@@ -1,16 +1,16 @@
 import Image from "next/image";
-import Nav from "../components/Nav";
-import Hero from "../components/Home";
-import Share from "../components/Share";
-import How from "../components/How";
-import Help_you from "../components/Help_you.jsx";
-import OneSol from "../components/OneSol";
-import Engaging from "../components/Engaging";
-import Footer from "../components/Footer";
-import One from "../components/One";
-import Features from "../components/Features";
-import Optimixed from "../components/Optimixed";
-import Faq from "../components/Faq";
+import Nav from "../Components/Nav";
+import Hero from "../Components/Home";
+import Share from "../Components/Share";
+import How from "../Components/How";
+import Help_you from "../Components/Help_you.jsx";
+import OneSol from "../Components/OneSol";
+import Engaging from "../Components/Engaging";
+import Footer from "../Components/Footer";
+import One from "../Components/One";
+import Features from "../Components/Features";
+import Optimixed from "../Components/Optimixed";
+import Faq from "../Components/Faq";
 import './globals.css';
 export default function Home() {
   return (
