@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div className="bg-white rounded-b-[64px] font-[family-name:var(--font-geist-sans)]">
       <div className="py-10">
-
+{/* / */}
       </div>
       <Nav />
       <Hero />
