@@ -25,3 +25,12 @@ body {
     text-wrap: balance;
   }
 }
+.bgg{
+  background-image: url("../assests/footer-bg.webp");
+}
+.texture{
+  background-image: url("../assests/textures2.webp");
+}
+.section{
+  background-image: url("../assests/section-background.webp");
+}
