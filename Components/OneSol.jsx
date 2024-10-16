@@ -2,8 +2,8 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Influencers from "../assests/influ.webp";
-import indi from "../assests/indi.webp";
-import Busi from "../assests/busi.webp";
+import indi from "../assests/Indi.webp";
+import Busi from "../assests/Busi.webp";
 
 const OneSol = () => {
   const [activeTab, setActiveTab] = useState("individuals");

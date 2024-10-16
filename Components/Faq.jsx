@@ -1,5 +1,5 @@
 import React from "react";
-import Faq from "../components/FAQ/Faq";
+import Faq from "../Components/FAQ/Faq";
 const Faqq = () => {
   return (
     <div className="max-w-6xl  mx-auto py-[6em] my-5">
