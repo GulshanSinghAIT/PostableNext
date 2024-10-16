@@ -35,7 +35,7 @@ const isActive = (currentPlatform) => platform === currentPlatform ? 'bg-black o
           images from your tweets, perfect for Instagram, Facebook, and more.
         </p>
       </header>
-      <div className=" mx-auto overflow-x-hidden  my-0 flex max-w-full items-center justify-start gap-3  px-4 sm:justify-center sm:gap-4 md:my-0 md:gap-5">
+      <div className=" mx-auto overflow-hidden  my-0 flex max-w-full items-center justify-start gap-3  px-4 sm:justify-center sm:gap-4 md:my-0 md:gap-5">
       <button
           onClick={() => handleTabClick('Instagram Story')}
           className={`flex items-center gap-1 rounded-[8px] px-2 py-1.5 text-white transition-all duration-200 ease-in-out sm:rounded-[10px] sm:px-3 sm:py-2 hover:scale-105 active:scale-95 ${isActive('Instagram Story')}`}
@@ -119,10 +119,10 @@ const isActive = (currentPlatform) => platform === currentPlatform ? 'bg-black o
           <div className="text-xs  whitespace-nowrap  font-medium sm:text-sm">+ more</div>
         </button>
       </div>
-      <div className="relative flex items-center justify-center top-9 md:top-16">
+      <div className="relative flex items-center  justify-center top-9 md:top-16">
         <div className="relative top-0">
           <div className="preview-container relative h-fit w-fit overflow-hidden">
-            <div className="group/preview  max-w-[94%] mx-auto w-sm relative flex h-fit w-fit flex-shrink-0 origin-bottom-left flex-col rounded-3xl transition-colors">
+            <div className="group/preview  max-w-[94%] mx-auto sm:w-[28em]  relative flex h-fit flex-shrink-0 origin-bottom-left flex-col rounded-3xl transition-colors">
               <div className="relative flex  flex-shrink-0 select-none items-center gap-1 px-5 transition-colors h-12 rounded-t-3xl bg-white/20 text-white backdrop-blur-lg group-hover/preview:text-white/90">
                 <svg
                   className="size-4"
