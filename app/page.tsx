@@ -11,6 +11,7 @@ import One from "../Components/One";
 import Features from "../Components/Features";
 import Optimixed from "../Components/Optimixed";
 import Faq from "../Components/Faq";
+import './globals.css';
 export default function Home() {
   return (
     <div className="bg-white rounded-b-[64px] font-[family-name:var(--font-geist-sans)]">
